@@ -1,0 +1,46 @@
+/*selector*/
+h2{
+    color: chocolate;
+}
+section h2{
+    color: green;
+}
+
+
+/*cascada*/
+h3{
+    color: aqua;
+}
+/*elemento de prueva */
+/*elemento de prueva */
+/*elemento de prueva */
+h3{
+    color: coral;
+}
+/*elemento de prueva */
+/*elemento de prueva */
+/*elemento de prueva */
+h3{
+    color:cadetblue
+}
+
+
+/*herencia*/
+h4{
+    color: cornflowerblue;
+}
+a{
+    color: inherit;
+}
+
+
+/*especificicidad*/
+#segundo{
+    color: darkgoldenrod;
+}
+.primero{
+    color: darkblue !important
+}
+h5{
+    color:chartreuse !important
+}

@@ -4,9 +4,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
-    <h1>para que</h1>
+    <p >  CSS es un pilar de frontend traducido como "hojas de estilo 
+        en cascada" basica mente es un lenguaje de diseño y presentacion, 
+        y sirve para poder darle color y buena apariencia a las paginas web </p>
+    <br><br>
+    <!--Las maneras de enlazar css a mi archivo html-->
+    <p>Link, inlane y etiqueta style dentro del html</p>
+    <section>
+        <h1 style="color: blue;">Enlace inline</h1>
+        <section>
+            <p>Enlace etiqueta style</p>
+        </section>
+        <style>
+            section p{
+                color: red;
+            }
+        </style>
+    </section>
+    <br><hr>
+
+    <!-- explicar con ejemplos los 4 pilares de CSS (Selectores, cascada, herencia y especificidad)-->
+
+    <!--selector -->
+    <p>Los selectores es para agarrar un elemento de html 
+        y darle color en un archivo aparte como style.css
+    </p>
+        <h2>Usando selector 1</h2>
+        <section>
+            <h2>Usando selector 2</h2>
+        </section>
+    <br>
+    <hr>
+    <!--cascada -->
+    <p></p>
+    <h3>Usando cascada</h3>
+    <br>
+    <hr>
+    <!--herencia-->
+    <p>La herencia es cuando lleva un elemento o etiqueta
+         dentro de otra etiqueta y hereda todos los cambios
+          que se realice al padre, en este caso el h4, en 
+          caso no herede automatica mente se se añade 
+          inherit al heredero
+    </p>
+    <h4>Ejemplo de herencia <a href="">Soy una herencia</a></h4>
+    <br>
+    <hr>
+    <!--especificidad -->
+    <p>Sirve para poder ordenar por gerarquia las etiquetas
+         de html por medio de los estilos mediante nombres 
+         o valor asignado como etiqueta, class, id, inline e importat
+    </p>
+    <h5 style="color:violet" class="primero" id="segundo">Usando especificidad</h5>
 </body>
 </html>
